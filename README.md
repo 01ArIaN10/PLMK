@@ -1,8 +1,8 @@
 # PLMK (PassList MaKer)
 
-# Created By Arian
-# Email => Arian_1949@protonmail.com
-# Telegram => ArianProgrammer
+* Created By Arian
+* Email => Arian_1949@protonmail.com
+* Telegram => ArianProgrammer
 
 # install 
 
