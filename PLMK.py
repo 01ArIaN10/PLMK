@@ -1,6 +1,6 @@
 from colorama import Fore
 from modules import Intro , Banner , Exit
-
+from datetime import datetime
 def RM_NULL(LIST):
     N_LIST=[]
     for i in LIST:
@@ -49,6 +49,7 @@ while True:
 
 if OK==True:
     print()
+    start=datetime.now()
     build="import sys\n"
     build+="words="+str(word)+"\n"
     build+="file=open('Passwords.txt','w')\n"
@@ -75,6 +76,7 @@ if OK==True:
         build+=tab+"prog_num+=1\n"
     build+="file.close()"
     exec(build)
-    print("\n\n"+Fore.LIGHTGREEN_EX+str(out_num)+" Passwords Saved In Passwords.txt"+Fore.RESET)
+    end=datetime.now()
+    print("\n\n"+Fore.LIGHTGREEN_EX+str(out_num)+f" Passwords Saved In Passwords.txt \n Time={end-start}"+Fore.RESET)
     Exit.EX()
 

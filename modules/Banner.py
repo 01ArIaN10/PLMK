@@ -13,7 +13,7 @@ def SHOW():
     |              Created By Arian             |
     |          Telegram : ArianProgrammer       |
     |       Email : Arian_1949@protonmail.com   |
-    |               Version : 1.0               |
+    |               Version : 2.0               |
     +-------------------------------------------+
     """+Fore.RESET
     print(banner)
